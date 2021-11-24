@@ -4,7 +4,7 @@ import "vehicleBaseClass.js"
 class Car extends Vehicle {
     constructor(make, model, year, color, mileage){
         super(make, model, year, color, mileage);
-        this.maximumPassengers=6;
+        this.maximumPassengers=5;
         this.passenger=0;
         this.numberOfWheels=4;
         this.maximumSpeed=200;
